@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+
+        td,
+
+        th {
+            border: 1px solid black;
+
+            border-collapse: collapse;
+
+            padding: 5px;
+        }
+
+        table {
+
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabla básica</h2>
+    <table>
+        <caption>CATALOGO DE EMPANADAS</caption>
+        <thead>
+            <tr>
+                <th>Relleno</th>
+                <th>$ de la doc</th>
+                <th>$ de la 1/2 doc</th>
+                <th>Disponibilidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carne</td>
+                <td>$2000</td>
+                <td>$1100</td>
+                <td>SI</td>
+            </tr>
+            <tr>
+                <td>Verdura</td>
+                <td>$1800</td>
+                <td>$1000</td>
+                <td>SI</td>
+            </tr>
+            <tr>
+                <td>Choclo</td>
+                <td>$1800</td>
+                <td>$1000</td>
+                <td>NO</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h2>Tabla compleja</h2>
+    <table>
+        <caption>CATALOGO DE AUTOMOVILES</caption>
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Año</th>
+                <th>Color</th>
+                <th>Cant.Puertas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.volkswagen.com.ar/es.html" target="_blank">VolksWagen</a></td>
+                <td>Gol Trend</td>
+                <td>2012</td>
+                <td>Gris</td>
+                <td rowspan="2">5</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.volkswagen.com.ar/es.html" target="_blank">VolksWagen</a></td>
+                <td rowspan="2">Polo</td>
+                <td>2006</td>
+                <td>Negro</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.volkswagen.com.ar/es.html" target="_blank">VolksWagen</a></td>
+                <td>2019</td>
+                <td>Blanco</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.volkswagen.com.ar/es.html" target="_blank">VolksWagen</a></td>
+                <td>Gol Power</td>
+                <td>2009</td>
+                <td>Gris</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Todos nuestros vehículos entran en el nuevo *Plan de ahorro VolksWagen*</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
