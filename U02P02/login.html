@@ -10,14 +10,17 @@
 
 <body>
     <h1>Iniciar Sesión</h1>
-    <p>Ingrese su usuario y su contraseña</p>
-    <form action="">
+    <p>Ingrese su usuario y su contraseña:</p>
+    <form>
         <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="usuario" value=""/>
+        <input type="text" id="usuario" name="usuario" placeholder="nombre de usuario..."/>
         <br>
-        <label for="contraseña">Contraseña:</label>
-        <input type="password" id="contraseña" name="contraseña" value=""/>
+        <label for="contrasenia">Contraseña:</label>
+        <input type="password" id="contrasenia" name="contrasenia" placeholder="ingrese su password..."/>
         <br>
+        <label for="recordar-datos">Recordar datos</label>
+        <input type="checkbox" id="recordar-datos" name="recordar-datos">
+        <br><br>
         <input type="submit" value="Aceptar"/>
     </form>
 </body>
