@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .campo {
+            margin-bottom: 5.6px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Página de perfil y datos personales</h1>
+    <form action="">
+
+        <fieldset>
+            <legend>Información personal</legend>
+            <label for="categoria">Categoria:</label><br>
+            <input class="campo" type="text" name="categoria" id="categoria" value="ESTUDIANTE" readonly size="30"><br>
+            <label for="nombre-completo">Nombre completo:</label><br>
+            <input class="campo" type="text" name="nombre-completo" id="nombre-completo" placeholder="su nombre..." size="30"><br>
+            <label for="e-mail">E-mail:</label><br>
+            <input class="campo" type="email" name="e-mail" id="e-mail" placeholder="example@gmail..." size="30"><br>
+            <label for="edad">Edad:</label><br>
+            <input class="campo" type="number" name="edad" id="edad" min="0" max="110" size="30"><br>
+            <label for="nacionalidad">Nacionalidad:</label><br>
+            <select class="campo" name="nacionalidad" id="nacionalidad" style="width: 237px;">
+                <option value="argentina">Argentina</option>
+                <option value="italiana">Italiana</option>
+                <option value="rusa">Española</option>
+            </select><br>
+            <label for="cond-laboral">Condición laboral:</label><br>
+            <select class="campo" name="cond-laboral" id="cond-laboral" style="width: 237px;">
+                <option value="desempleado">Desempleado</option>
+                <option value="en-busqueda">En búsqueda laboral</option>
+                <option value="part-time">Trabajo part-time</option>
+                <option value="full-time">Trabajo full-time</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Gustos personales</legend>
+            <label for="gustos-musicales">Gustos musicales:</label><br>
+            <input class="campo" type="text" name="gustos-musicales" id="gustos-musicales" size="30" placeholder="género..."><br>
+            <label for="comidas-prefeeridas">Comida preferida:</label><br>
+            <select class="campo" name="comidas-prefeeridas" id="comidas-prefeeridas" style="width: 237px;">
+                <option value="empanadas">Empanadas</option>
+                <option value="pastas">Pastas</option>
+                <option value="ensaladas">Ensaladas</option>
+            </select>
+        </fieldset>
+        <input class="campo" type="checkbox" name="recordar-datos" id="recordar-datos">
+        <label for="recordar-datos">Recordar datos</label><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
