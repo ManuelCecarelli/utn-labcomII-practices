@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    gap: 2px;
+}
+
+ul li {
+    background-color: rgba(123,198,199,0.8);
+    flex-grow: 1;
+    padding: 8px;
+}
+
+ul li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
