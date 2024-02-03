@@ -1,0 +1,36 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 3px lightgreen;
+}
+
+.encabezado, .pie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.encabezado {
+    background-color: black;
+    height: 40px;
+}
+
+.cuerpo {
+    flex: 1 1 0;
+}
+
+.pie {
+    background-color: grey;
+    height: 30px;
+}
+
+.cuerpo p {
+    margin: 16px;
+}
