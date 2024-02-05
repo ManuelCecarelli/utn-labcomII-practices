@@ -1,0 +1,37 @@
+.container {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: orange;
+    padding: 20px;
+}
+
+.cuerpo {
+    display: flex;
+    min-height: 100vh;
+}
+
+.lateral, .centro {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.lateral {
+    flex: 1;
+    background-color: rgb(80, 79, 79);
+    color: white;
+
+}
+
+.centro {
+    flex: 2;
+}
