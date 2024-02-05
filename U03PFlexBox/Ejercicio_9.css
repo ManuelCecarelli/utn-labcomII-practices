@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#col-izquierda {
+    background-color: #0e7c74;
+    color: white;
+    flex: 2;
+    padding: 12px;
+}
+
+#col-derecha {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.fila {
+    border: 1px solid lightgray;
+    flex: 1 1 100%;
+    padding: 24px;
+}
